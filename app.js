@@ -1,7 +1,8 @@
-   const email = document.querySelector('#emailconst');
-   const textarea = document.querySelector('#exampleFormControlTextarea1');
-   const button = document.querySelector('#btnSubmit');
-   const form = document.querySelector('#form');
+
+    const email = document.querySelector('#emailconst');
+    const textarea = document.querySelector('#exampleFormControlTextarea1');
+    const button = document.querySelector('#btnSubmit');
+    const form = document.querySelector('#form');
 
    button.addEventListener('click', (e) => {
       e.preventDefault();
@@ -31,7 +32,6 @@
    function closeModal() {
       modal.style.display = "none";
    }
-   
    window.onclick = function(event) {
       if (event.target == modal) {
         modal.style.display = "none";
