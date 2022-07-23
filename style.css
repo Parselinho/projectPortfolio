@@ -11,6 +11,9 @@ img {
   height: auto;
 }
 
+.aflex {
+  display: flex;
+}
 .card {
   text-align: center;
   overflow: hidden;
