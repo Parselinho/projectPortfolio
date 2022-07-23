@@ -96,9 +96,13 @@ body
 }
 
 .modal-content p {
-  padding: 50px;
+  padding: 20px;
+  text-align: center;
 }
 
+.text-white {
+  margin-bottom: 0;
+}
 
 @media (min-width: 992px) {
   .displayit {
